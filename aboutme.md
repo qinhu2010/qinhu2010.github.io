@@ -10,4 +10,4 @@ subtitle: PhD Candidate in the George Washington University
 ### My education history
 
 - I received B.S. in Electronic Engineering at the [College of Information Science and Technology](http://cisten.bnu.edu.cn/) in [Beijing Normal University](https://english.bnu.edu.cn/) with Outstanding Graduates award in July, 2014.
-- I received M.S. in Computer Science at the [College of Information Science and Technology](http://cisten.bnu.edu.cn/) in [Beijing Normal University](https://english.bnu.edu.cn/) with Outstanding Graduates award in July, 2017.
+- I received [M.S.](http://bigdata.bnu.edu.cn/zh/qin-hu/) in Computer Science at the [College of Information Science and Technology](http://cisten.bnu.edu.cn/) in [Beijing Normal University](https://english.bnu.edu.cn/) with Outstanding Graduates award in July, 2017.

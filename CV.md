@@ -48,11 +48,11 @@ View my CV in [pdf](file/CV_QinHu.pdf).
 
 ## Award and Honor
 
-- **Graduation with Honor in Beijing (top 5%)** Beijing Municipal Education Commission, 2017
-- **Graduation with Honor in Beijing Normal University (top 10%)** Beijing Normal University, 2014
-- **Honorable Mention in MCM/ICM** Consortium for Mathematics and Its Applications, 2013
-- **BNU Outstanding Undergraduate** Beijing Normal University, 2013
-- **Huawei Scholarship (top 5%)** Beijing Normal University, 2013
-- **China National Scholarship (top 0.2%)** Ministry of Education of the People’s Republic of China, 2012 
-- **National Encouragement Scholarship (top 10%)** Beijing Municipal Education Commission, 2011 
+- **Graduation with Honor in Beijing (top 5%)**, Beijing Municipal Education Commission, 2017
+- **Graduation with Honor in Beijing Normal University (top 10%)**, Beijing Normal University, 2014
+- **Honorable Mention in MCM/ICM**, Consortium for Mathematics and Its Applications, 2013
+- **BNU Outstanding Undergraduate**, Beijing Normal University, 2013
+- **Huawei Scholarship (top 5%)**, Beijing Normal University, 2013
+- **China National Scholarship (top 0.2%)**, Ministry of Education of the People’s Republic of China, 2012 
+- **National Encouragement Scholarship (top 10%)**, Beijing Municipal Education Commission, 2011 
 

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Talks
-subtitle: Qin (Jane) Hu
 ---
 
 - **Solving the Crowdsourcing Dilemma Using the Zero-Determinant Strategy**

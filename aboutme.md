@@ -1,11 +1,11 @@
 ---
 layout: page
 title: About me
-subtitle: PhD Candidate in the George Washington University
+subtitle: Qin (Jane) Hu
 ---
 
 - I'm a PhD candidate in Computer Science. My advisor is [Xiuzhen Cheng](https://www2.seas.gwu.edu/~cheng/).
-- My research interests include **wireless networks** and **mobile computing**.
+- My research interests include **Wireless Networks** and **Mobile Computing**.
 
 ### My education history
 

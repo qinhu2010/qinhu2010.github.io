@@ -3,6 +3,9 @@ layout: page
 title: Talks
 ---
 
+- **Enhancing Crowdsourcing with the Zero-Determinant Game Theory**
+  - Feb 23, 2019
+  - Workshop of Socialized Cognitive Radio Networks, Georgia State University, Atlanta, Georgia, USA
 - **Anti-Malicious Crowdsourcing Using the Zero-Determinant Strategy**
   - June 8, 2017
   - ICDCS 2017, Atlanta, Georgia, USA

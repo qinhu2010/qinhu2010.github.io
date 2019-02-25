@@ -7,7 +7,7 @@ View my [Google Scholar](https://scholar.google.com/citations?user=tzMBk3YAAAAJ&
 
 ### Journal Papers
 
-- **Qin Hu**, Shengling Wang, Peizi Ma, Xiuzhen Cheng, Weifeng Lv, and Rongfang Bie, “Quality Control in Crowdsourcing Using Sequential Zero-Determinant Strategies”, to appear in IEEE Transactions on Knowledge and Data Engineering.
+- **Qin Hu**, Shengling Wang, Peizi Ma, Xiuzhen Cheng, Weifeng Lv, and Rongfang Bie, [“Quality Control in Crowdsourcing Using Sequential Zero-Determinant Strategies”](https://ieeexplore.ieee.org/abstract/document/8632709), IEEE Transactions on Knowledge and Data Engineering, 2019.
 - **Qin Hu**, Shengling Wang, Chunqiang Hu, Jianhui Huang, Wei Li, and Xiuzhen Cheng, [“Messages in a Concealed Bottle: Achieving Query Content Privacy with Accurate Location-Based Services”](https://ieeexplore.ieee.org/abstract/document/8360466), IEEE Transactions on Vehicular Technology, 2018, Vol. 67, No. 8, pp. 7698-7711.
 - **Qin Hu**, Shengling Wang, Rongfang Bie, and Xiuzhen Cheng, [“Social Welfare Control in Mobile Crowdsensing Using Zero-Determinant Strategy”](https://www.mdpi.com/1424-8220/17/5/1012/htm), Sensors, 2017, Vol. 17, No. 5, pp. 1012.
 - Shengling Wang, **Qin Hu**, Yunchuan Sun, and Jianhui Huang, [“Privacy Preservation in Location- Based Services”](https://ieeexplore.ieee.org/abstract/document/8316781), IEEE Communications Magazine, 2018, Vol. 56, No. 3, pp. 134-140.

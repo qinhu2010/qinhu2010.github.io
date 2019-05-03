@@ -16,7 +16,7 @@ View my CV in [pdf](../file/CV_QinHu.pdf).
    Security [ICDCS 2017](https://ieeexplore.ieee.org/abstract/document/7980054), [MobiHoc 2016](https://dl.acm.org/citation.cfm?id=2942402)  
    Mobile Crowd Sensing [Sensors 2017](https://www.mdpi.com/1424-8220/17/5/1012/htm)  
 - Blockchain
-   Vulnerability analysis INFOCOM 2019  
+   Vulnerability analysis INFOCOM 2019, IWQoS 2019  
    NormaChain [IoTJ 2018](https://ieeexplore.ieee.org/abstract/document/8502858)  
 
 ## Education

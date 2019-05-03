@@ -16,6 +16,7 @@ View my [Google Scholar](https://scholar.google.com/citations?user=tzMBk3YAAAAJ&
 
 ### Conference Papers
 
+- **Qin Hu**, Shengling Wang, and Xiuzhen Cheng, "A Game Theoretic Analysis on Block Withholding Attacks Using the Zero-Determinant Strategy", 2019 IEEE/ACM 27th International Symposium on Quality of Service (IWQoS), 2019.
 - Shengling Wang, Chenyu Wang, and **Qin Hu**, “Corking by Forking: Vulnerability Analysis of Blockchain”, IEEE International Conference on Computer Communications (INFOCOM), 2019.
 - **Qin Hu**, Shengling Wang, Liran Ma, Rongfang Bie, and Xiuzhen Cheng, [“Anti-Malicious Crowdsourcing Using the Zero-Determinant Strategy”](https://ieeexplore.ieee.org/abstract/document/7980054), IEEE International Conference on Distributed Computing Systems (ICDCS), 2017, pp. 1137-1146.
 - **Qin Hu**, Shengling Wang, Liran Ma, Xiuzhen Cheng, and Rongfang Bie, [“Solving the Crowdsourcing Dilemma Using the Zero-Determinant Strategy: Poster”](https://dl.acm.org/citation.cfm?id=2942402), ACM International Symposium on Mobile Ad Hoc Networking and Computing (MobiHoc), 2016, pp. 373-374.

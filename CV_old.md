@@ -22,7 +22,7 @@ View my CV in [pdf](../file/CV_QinHu.pdf).
 ## Education
 
 - Ph.D. in CS, [The George Washington University](https://www.gwu.edu/)
-	* Aug 2017 - May 2019 (Expected)
+	* Aug 2017 - May 2019 
 	* [Department of Computer Science](https://www.cs.seas.gwu.edu/)
 	* Advisor: [Xiuzhen Cheng](https://www2.seas.gwu.edu/~cheng/)
 - M.S. in CS, [Beijing Normal University](https://english.bnu.edu.cn/)

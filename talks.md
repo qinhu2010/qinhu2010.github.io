@@ -3,6 +3,9 @@ layout: page
 title: Talks
 ---
 
+- **A Game Theoretic Analysis on Block Withholding Attacks Using the Zero-Determinant Strategy**
+  - June 25, 2019
+  - IWQoS 2019, Phoenix, Arizona, USA
 - **Enhancing Crowdsourcing with the Zero-Determinant Game Theory**
   - Feb 23, 2019
   - Workshop of Socialized Cognitive Radio Networks, Georgia State University, Atlanta, Georgia, USA

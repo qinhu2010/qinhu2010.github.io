@@ -7,7 +7,7 @@ subtitle: Qin (Jane) Hu
 - Dr. and Assistant Professor in [Department of Computer & Information Science](https://cs.iupui.edu/), Purdue School of Science, Indiana University-Purdue University Indianapolis (IUPUI)
 
 [comment]:< - My PhD advisor is [Xiuzhen Cheng](https://www2.seas.gwu.edu/~cheng/).>
-- Research interests : **Wireless and Mobile Security**, **Blockchain**, **Crowdsourcing/crowdsensing**
+- Research interests : **Wireless and mobile security**, **Blockchain**, **Crowdsourcing/crowdsensing**
 
 - Education: PhD in CS, [The George Washington University](https://www.gwu.edu/) (Advisor: [Xiuzhen Cheng](https://www2.seas.gwu.edu/~cheng/)), 2019; MS in CS, [Beijing Normal University](https://english.bnu.edu.cn/) (Advisor: Shengling Wang), 2017; BS in EE, [Beijing Normal University](https://english.bnu.edu.cn/), 2014
 

@@ -4,15 +4,19 @@ title: About me
 subtitle: Qin (Jane) Hu
 ---
 
-- Assistant Professor in [Department of Computer Science], Indiana University Indianapolis (IUI)
+- I am currently an Assistant Professor in the Department of Computer Science, at Indiana University Indianapolis (IUI), and will move to the Department of Computer Science, at Georgia State University, in August 2024.
 
 [comment]:< - My PhD advisor is [Xiuzhen Cheng](https://www2.seas.gwu.edu/~cheng/).>
-- Research interests : **Wireless and mobile security**, **AI security and privacy**, **federated learning**, **edge computing**, **blockchain**
+- Research interests
+    - **Wireless and mobile security**
+    - **AI security and privacy**
+    - **Federated learning**
+    - **Edge computing**
+    - **Blockchain**
 
 - Education
-    PhD in CS, [The George Washington University](https://www.gwu.edu/) (Advisor: [Xiuzhen Cheng](https://www2.seas.gwu.edu/~cheng/)), 2019
-  [comment]: <; MS in CS, [Beijing Normal University](https://english.bnu.edu.cn/) (Advisor: Shengling Wang), 2017;>
-    BS in EE, [Beijing Normal University](https://english.bnu.edu.cn/), 2014
+    - PhD in CS, [The George Washington University](https://www.gwu.edu/) (Advisor: [Xiuzhen Cheng](https://www2.seas.gwu.edu/~cheng/)), 2019
+    - BS in EE, [Beijing Normal University](https://english.bnu.edu.cn/), 2014
 
 [comment]: <### My education history>
 

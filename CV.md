@@ -4,7 +4,7 @@ title: Curriculum Vitae
 subtitle: Qin (Jane) Hu
 ---
 
-View my CV in [pdf](../file/CV_QinHu.pdf) (by May 2019)
+View my CV in [pdf](../file/Hu_CV.pdf) (by May 2024)
 
 ## Research Interests
 

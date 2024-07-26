@@ -4,7 +4,8 @@ title: About me
 subtitle: Qin (Jane) Hu
 ---
 
-- I am currently an Assistant Professor in the Department of Computer Science, at Indiana University Indianapolis (IUI), and will move to the Department of Computer Science, at Georgia State University, in August 2024.
+- I am currently an Assistant Professor in the Department of Computer Science, at Georgia State University (GSU).
+- Before July 2024, I was working as an Assistant Professor of Computer Science at Indiana University-Purdue University Indianapolis (IUPUI).
 
 [comment]:< - My PhD advisor is [Xiuzhen Cheng](https://www2.seas.gwu.edu/~cheng/).>
 - Research interests

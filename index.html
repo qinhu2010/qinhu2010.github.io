@@ -1,73 +1,198 @@
----
-layout: page
-title: Qin Hu
-subtitle: Assistant Professor, Department of Computer Science, Georgia State University 
-bigimg: /img/gsu.jpg
-use-site-title: true
----
-
-<div class="posts-list">
-  {% for post in paginator.posts %}
-  <article class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
-
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
-    </a>
-
-    <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-
-    <div class="post-entry-container">
-      {% if post.image %}
-      <div class="post-image">
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          <img src="{{ post.image }}">
-        </a>
-      </div>
-      {% endif %}
-      <div class="post-entry">
-        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-        {% assign excerpt_word_count = post.excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
-        {% endif %}
-      </div>
-    </div>
-
-    {% if post.tags.size > 0 %}
-    <div class="blog-tags">
-      Tags:
-      {% if site.link-tags %}
-      {% for tag in post.tags %}
-      <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
-      {% endfor %}
-      {% else %}
-        {{ post.tags | join: ", " }}
-      {% endif %}
-    </div>
-    {% endif %}
-
-   </article>
-  {% endfor %}
-</div>
-
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>Dr. Qin Hu</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2299">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 15.0px 'Helvetica Neue'; color: #ffffff; color: rgba(255, 255, 255, 0.5); -webkit-text-stroke: rgba(255, 255, 255, 0.5)}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px Times; color: #4e555e; -webkit-text-stroke: #4e555e}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px Times; color: #882519; -webkit-text-stroke: #882519}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px Times; color: #b5001f; -webkit-text-stroke: #b5001f}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #4e555e; -webkit-text-stroke: #4e555e}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px 'Helvetica Neue'; color: #0d1f3e; -webkit-text-stroke: #0d1f3e}
+    p.p14 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #4e555e; -webkit-text-stroke: #4e555e}
+    p.p15 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 12.0px 'Helvetica Neue'; color: #882519; -webkit-text-stroke: #882519}
+    li.li4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px Times; color: #4e555e; -webkit-text-stroke: #4e555e}
+    li.li7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #4e555e; -webkit-text-stroke: #4e555e}
+    li.li10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px Times; color: #1a6d86; -webkit-text-stroke: #1a6d86}
+    li.li11 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px 'Helvetica Neue'; color: #4e555e; -webkit-text-stroke: #4e555e}
+    li.li12 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px 'Helvetica Neue'; color: #882519; -webkit-text-stroke: #882519}
+    li.li16 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue Light'; color: #4e555e; -webkit-text-stroke: #4e555e}
+    li.li19 {margin: 0.0px 0.0px 6.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #4e555e; -webkit-text-stroke: #4e555e}
+    span.s1 {font-kerning: none; background-color: #882519}
+    span.s2 {font-kerning: none}
+    span.s3 {font: 72.0px 'Helvetica Neue'; font-kerning: none; color: #882519; -webkit-text-stroke: 0px #882519}
+    span.s4 {font: 72.0px 'Helvetica Neue'; font-kerning: none}
+    span.s5 {font-kerning: none; color: #294558; -webkit-text-stroke: 0px #294558}
+    span.s6 {font-kerning: none; color: #4e555e; -webkit-text-stroke: 0px #4e555e}
+    span.s7 {text-decoration: underline ; font-kerning: none; color: #882519; -webkit-text-stroke: 0px #882519}
+    span.s8 {-webkit-text-stroke: 0px #000000}
+    span.s9 {font: 12.0px Times; -webkit-text-stroke: 0px #000000}
+    span.s10 {font: 12.0px Times; font-kerning: none}
+    span.s11 {font: 12.0px Times; color: #4e555e; -webkit-text-stroke: 0px #000000}
+    span.s12 {font: 12.0px Times; font-kerning: none; color: #4e555e; -webkit-text-stroke: 0px #4e555e}
+    span.s13 {font: 12.0px 'Helvetica Neue'; text-decoration: underline ; font-kerning: none; color: #882519; -webkit-text-stroke: 0px #882519}
+    span.s14 {font: 15.0px 'Helvetica Neue Light'; text-decoration: underline ; font-kerning: none; color: #882519; -webkit-text-stroke: 0px #882519}
+    span.s15 {font: 24.0px 'Helvetica Neue'; text-decoration: underline ; font-kerning: none; color: #882519; -webkit-text-stroke: 0px #882519}
+    ul.ul1 {list-style-type: none}
+    ul.ul2 {list-style-type: circle}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">Qin Hu</span></p>
+<p class="p2"><span class="s2"><br>
+</span></p>
+<h1 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px Times; color: #16191c; -webkit-text-stroke: #16191c"><span class="s3"><b>Qin Hu</b></span><span class="s4"><b> </b></span><span class="s2">Assistant Professor</span><span class="s4"><b><span class="Apple-converted-space"> </span></b></span></h1>
+<p class="p4"><span class="s2">Luddy School Of Informatics, Computing, And Engineering· Indiana University Indianapolis<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s5">Office:</span><span class="s2"> IT 341, 535 W Michigan Street</span></p>
+<p class="p4"><span class="s5">Office Hour:</span><span class="s2"> Thursdays 1:00 pm to 3:00 pm Or By Appointment</span></p>
+<p class="p4"><span class="s5">Contact:</span><span class="s2"> (317)274-3815</span></p>
+<p class="p5"><span class="s5">Email:</span><span class="s6"> <a href="mailto:qinhu@iu.edu"><span class="s7">Qinhu At Iu Dot Edu</span></a><span class="Apple-converted-space"> </span></span></p>
+<p class="p6"><span class="s2">Short Bio</span></p>
+<ul class="ul1">
+  <li class="li7"><span class="s8"></span><span class="s2">Qin Hu received the Ph.D. degree in computer science from The George Washington University in 2019. She is currently an Assistant Professor with the Luddy School of Informatics, Computing, and Engineering at Indiana University Indianapolis. She received the Best Paper Award of WASA 2020 and the Best Paper Award Runner-up of IEEE MASS 2021. She has served as the Editor for two journals, the Guest Editor for sixjournals, the TPC/Publicity chair for six workshops/conferences, and the TPC Member for several international conferences, such as IEEE INFOCOM 2022/2023, IEEE MASS 2022, IEEE Globecom 2019-2022, IEEE Blockchain 2019-2022. Her research interests include wireless and mobile security, crowdsourcing/crowdsensing, and blockchain. Her research on distributed machine learning has been funded by the US NSF CRII 2021.<span class="Apple-converted-space"> </span></span></li>
 </ul>
-{% endif %}
+<p class="p8"><span class="s2"><b>I'm Looking For Self-Motivated Students. Feel Free To Contact Me With Your Cv. Specifically, The Ph.D. Students Will Receive The Degree From Purdue University.</b></span></p>
+<p class="p7"><span class="s2"><br>
+</span></p>
+<p class="p7"><span class="s2"><br>
+</span></p>
+<h2 style="margin: 0.0px 0.0px 36.0px 0.0px; font: 42.0px 'Helvetica Neue'; color: #16191c; -webkit-text-stroke: #16191c"><span class="s2"><b>Research</b></span></h2>
+<p class="p4"><span class="s2">Research Fields &amp; Interests</span></p>
+<ul class="ul1">
+  <li class="li10"><span class="s8"></span><span class="s2">Wireless And Mobile Security<span class="Apple-converted-space"> </span></span></li>
+  <li class="li10"><span class="s8"></span><span class="s2">Blockchain<span class="Apple-converted-space"> </span></span></li>
+  <li class="li10"><span class="s8"></span><span class="s2">Edge Computing<span class="Apple-converted-space"> </span></span></li>
+  <li class="li10"><span class="s8"></span><span class="s2">Internet Of Things<span class="Apple-converted-space"> </span></span></li>
+</ul>
+<p class="p6"><span class="s2">What's New</span></p>
+<ul class="ul1">
+  <li class="li11"><span class="s9"><b></b></span><span class="s10"><b><br>
+</b></span><span class="s2">Apr. 2022, our paper entitled "Strategic Signaling for Utility Control in Audit Games" has been accepted by ELSEVIER Computers &amp; Security. Congratulations to Jianan!<span class="Apple-converted-space"> </span></span></li>
+  <li class="li11"><span class="s9"><b></b></span><span class="s10"><b><br>
+</b></span><span class="s2">Mar. 2022, our paper entitled "Solving the Federated Edge Learning Participation Dilemma: A Truthful and Correlated Perspective" has been accepted by IEEE Transactions on Vehicular Technology.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li11"><span class="s9"><b></b></span><span class="s10"><b><br>
+</b></span><span class="s2">Jan. 2022, our paper entitled "Social Welfare Maximization in Cross-Siso Federated Learning" has been accepted by IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2022. Congratulations to Jianan for his first academic publication!<span class="Apple-converted-space"> </span></span></li>
+  <li class="li11"><span class="s9"><b></b></span><span class="s10"><b><br>
+</b></span><span class="s2">Jan. 2022, I was invited to serve on a review panel of the National Science Foundation (NSF).<span class="Apple-converted-space"> </span></span></li>
+  <li class="li11"><span class="s9"><b></b></span><span class="s10"><b><br>
+</b></span><span class="s2">Nov. 2021, our paper about using blockchain and federated edge learning for privacy-preserving mobile crowdsensing has been accepted by IEEE TInternet of Things Journal (IoTJ).<span class="Apple-converted-space"> </span></span></li>
+  <li class="li11"><span class="s9"><b></b></span><span class="s10"><b><br>
+</b></span><span class="s2">Oct. 2021, our paper about enforcing full collaboration in federated edge learning has been accepted by IEEE Transactions on Mobile Computing (TMC).<span class="Apple-converted-space"> </span></span></li>
+  <li class="li11"><span class="s9"><b></b></span><span class="s10"><b><br>
+</b></span><span class="s2">June 2021, our paper collaborated with Hanyang University (Korea) has been accepted by IEEE Internet of Things Journal. Congratulations to my trainee Yuhao!<span class="Apple-converted-space"> </span></span></li>
+  <li class="li12"><span class="s11"><b></b></span><span class="s12"><b><br>
+</b></span><span class="s6">May 2021, our grant <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=2105004&amp;HistoricalAwards=false"><span class="s13"><i>Blockchain-based Distributed Machine Learning for Mobile Crowd Sensing </i></span></a>is funded by NSF CRII.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li11"><span class="s9"><b></b></span><span class="s10"><b><br>
+</b></span><span class="s2">May 2021, I was invited to be a TPC member of IEEE INFOCOM 2022.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li11"><span class="s9"><b></b></span><span class="s10"><b><br>
+</b></span><span class="s2">Apr. 2021, our paper was accepted by IEEE International Conference on Computer Communications and Networks (ICCCN) 2021. Congratulations to Cheng!<span class="Apple-converted-space"> </span></span></li>
+  <li class="li11"><span class="s9"><b></b></span><span class="s10"><b><br>
+</b></span><span class="s2">Mar. 2021, our paper was accepted by IEEE EEE International Conference on Distributed Computing Systems (ICDCS) 2021. Congratulations to Chen!<span class="Apple-converted-space"> </span></span></li>
+  <li class="li11"><span class="s9"><b></b></span><span class="s10"><b><br>
+</b></span><span class="s2">Jan. 2021, our paper was accepted by IEEE International Conference on Communications (ICC) 2021. Congratulations to Valli!<span class="Apple-converted-space"> </span></span></li>
+  <li class="li11"><span class="s9"><b></b></span><span class="s10"><b><br>
+</b></span><span class="s2">Aug. 2020, our paper was accepted by IEEE Global Communications Conference (Globecom) 2020.</span></li>
+  <li class="li11"><span class="s9"><b></b></span><span class="s10"><b><br>
+</b></span><span class="s2">Feb. 2020, our paper was accepted by IEEE International Conference on Blockchain and Cryptocurrency 2020.</span></li>
+  <li class="li11"><span class="s9"><b></b></span><span class="s10"><b><br>
+</b></span><span class="s2">Dec. 2019, our paper was accepted by IEEE Transactions on Mobile Computing (TMC).</span></li>
+  <li class="li11"><span class="s9"><b></b></span><span class="s10"><b><br>
+</b></span><span class="s2">Oct. 2019, our paper was accepted by IEEE Transactions on Information Forensics &amp; Security (TIFS).</span></li>
+</ul>
+<p class="p7"><span class="s2"><br>
+</span></p>
+<h2 style="margin: 0.0px 0.0px 36.0px 0.0px; font: 42.0px 'Helvetica Neue'; color: #16191c; -webkit-text-stroke: #16191c"><span class="s2"><b>Teaching</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 24.0px 'Helvetica Neue'; color: #16191c; -webkit-text-stroke: #16191c"><span class="s2"><b>Topics In Computer Science: Wireless And Mobile Security</b></span></h3>
+<p class="p4"><span class="s2">Csci 49000/59000</span></p>
+<p class="p14"><span class="s2">Intended for senior undergraduate and graduate students who are interested in the current development of wireless and mobile security. This course addresses various issues (attacks and defense strategies) in wireless and mobile security, including WEP and WPA, wireless jamming attacks, authentication and authorization, DDoS attacks, malware injection, side channel attacks, and mobile privacy.</span></p>
+<p class="p15"><span class="s2">Fall 2019/2020</span><span class="s6"><span class="Apple-converted-space"> </span></span></p>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 24.0px 'Helvetica Neue'; color: #16191c; -webkit-text-stroke: #16191c"><span class="s2"><b>Explorations In Applied Computing</b></span></h3>
+<p class="p4"><span class="s2">Csci 49500</span></p>
+<p class="p14"><span class="s2">An undergraduate capstone experience. Students will work in teams, advised by faculty and external liaisons, to solve real-world computing problems. This hands-on experience will cultivate technical expertise, utilization of analytical thinking, quantitative reasoning, project management skills, and communication skills.</span></p>
+<p class="p15"><span class="s2">Spring 2020/2021</span><span class="s6"><span class="Apple-converted-space"> </span></span></p>
+<p class="p7"><span class="s2"><br>
+</span></p>
+<h2 style="margin: 0.0px 0.0px 36.0px 0.0px; font: 42.0px 'Helvetica Neue'; color: #16191c; -webkit-text-stroke: #16191c"><span class="s2"><b>Students</b></span></h2>
+<ul class="ul1">
+  <li class="li4"><span class="s8"></span><span class="s2">Current Students</span></li>
+  <ul class="ul2">
+    <li class="li16"><span class="s8"></span><span class="s2">Cs Phd Student: Jianan Chen (Fall 2020 - Now), <a href="https://science.iupui.edu/cs/people-directory/people/wang-zhilin.html"><span class="s14">Zhilin Wang</span></a> (Spring 2021 - Now)</span></li>
+    <li class="li16"><span class="s8"></span><span class="s2">Ece Phd Student: Valli Sanghami Shankar Kumar (Co-Advised With <a href="http://et.engr.iupui.edu/~johnlee/"><span class="s14">Prof. John Lee</span></a>) (Fall 2020 - Now)<span class="Apple-converted-space"> </span></span></li>
+    <li class="li16"><span class="s8"></span><span class="s2">Cs Master Student: Shengyang Li (Fall 2021 - Now)</span></li>
+  </ul>
+  <li class="li4"><span class="s8"></span><span class="s2">Previous Students</span></li>
+  <ul class="ul2">
+    <li class="li16"><span class="s8"></span><span class="s2">Cs Undergraduate Student: Yash Nigam (Fall 2019 - Spring 2020, Graduated In Spring 2020)<span class="Apple-converted-space"> </span></span></li>
+    <li class="li16"><span class="s8"></span><span class="s2">Cs Master Student: Cheng Peng (Spring 2020 - Fall 2022), Yohan Mahajan (Fall 2019, Graduated In Spring 2021)</span></li>
+  </ul>
+</ul>
+<p class="p7"><span class="s2"><br>
+</span></p>
+<h2 style="margin: 0.0px 0.0px 36.0px 0.0px; font: 42.0px 'Helvetica Neue'; color: #16191c; -webkit-text-stroke: #16191c"><span class="s2"><b>Professional Services</b></span></h2>
+<ul class="ul1">
+  <li class="li4"><span class="s8"></span><span class="s2">Editorial Board Member: Elsevier Journal Of Network And Computer Applications, Elsevier High-Confidence Computing<span class="Apple-converted-space"> </span></span></li>
+  <li class="li4"><span class="s8"></span><span class="s2">Guest Editor: Eurasip Journal On Wireless Communications And Networking, Elsevier High-Confidence Computing, Elsevier Computer Communications, Hindawi Wireless Communications And Mobile Computing<span class="Apple-converted-space"> </span></span></li>
+  <li class="li4"><span class="s8"></span><span class="s2">Tpc Co-Chair: Ieee Hpcc 2021 Workshop On Artificial Intelligence Empowered Efficient And Secure 6G Networking And Communications, Ieee Icc 2022 2Nd Workshop On Scalable, Secure And Intelligent Blockchain For Future Networking And Communications<span class="Apple-converted-space"> </span></span></li>
+  <li class="li4"><span class="s8"></span><span class="s2">Publicity Co-Chair: Ieee International Conference On Embedded And Ubiquitous Computing (Euc) 2022, Ieee Wcnc 2022 2Nd Workshop On Machine Learning For Communications: Distributed Machine Learning For Future Communications And Networking, Ieee Blockchain 2019 Symposium<span class="Apple-converted-space"> </span></span></li>
+  <li class="li4"><span class="s8"></span><span class="s2">Program Committee Member: Ieee Infocom 2022/2023, Ieee Wcnc 2022, Ieee Mass 2022, Ieee Blockchain 2019-2021, Ieee Globecom 2019/2020, Ieee Icccn 2020/2021, Ieee Comnetsat 2020, Socialsens 2021<span class="Apple-converted-space"> </span></span></li>
+  <li class="li4"><span class="s8"></span><span class="s2">Reviewer Of Journals:</span></li>
+  <ul class="ul2">
+    <li class="li16"><span class="s8"></span><span class="s2">Ieee Internet Of Things Journal</span></li>
+    <li class="li16"><span class="s8"></span><span class="s2">Ieee Transactions On Wireless Communications</span></li>
+    <li class="li16"><span class="s8"></span><span class="s2">Computer Communications</span></li>
+    <li class="li16"><span class="s8"></span><span class="s2">Ieee Internet Computing</span></li>
+    <li class="li16"><span class="s8"></span><span class="s2">Ccf Transactions On Networking</span></li>
+  </ul>
+  <li class="li4"><span class="s8"></span><span class="s2">Reviewer Of Conferences:</span></li>
+  <ul class="ul2">
+    <li class="li16"><span class="s8"></span><span class="s2">Globecom 2019, 2020</span></li>
+    <li class="li16"><span class="s8"></span><span class="s2">Blockchain 2019 - 2021</span></li>
+    <li class="li16"><span class="s8"></span><span class="s2">Icccn 2021</span></li>
+    <li class="li16"><span class="s8"></span><span class="s2">Cloudsummit 2019</span></li>
+    <li class="li16"><span class="s8"></span><span class="s2">Wasa 2019</span></li>
+    <li class="li16"><span class="s8"></span><span class="s2">Infocom 2017, 2019</span></li>
+  </ul>
+</ul>
+<p class="p7"><span class="s2"><br>
+</span></p>
+<h2 style="margin: 0.0px 0.0px 36.0px 0.0px; font: 42.0px 'Helvetica Neue'; color: #16191c; -webkit-text-stroke: #16191c"><span class="s2"><b>Publications</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 24.0px 'Helvetica Neue'; color: #16191c; -webkit-text-stroke: #16191c"><span class="s2"><b>Selected Publications (A Full List On </b><a href="https://scholar.google.com/citations?user=tzMBk3YAAAAJ&amp;hl=en"><span class="s15"><b>Google Scholar</b></span></a><b>)</b></span></h3>
+<h3 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 24.0px 'Helvetica Neue'; color: #1a6d86; -webkit-text-stroke: #1a6d86"><span class="s2"><b>Journal Papers</b></span></h3>
+<ul class="ul1">
+  <li class="li19"><span class="s8"></span><span class="s2">Qin Hu, Shengling Wang, Xiuzhen Cheng, Liran Ma, and Rongfang Bie, “Solving the Crowdsourcing Dilemma Using the Zero-Determinant Strategies”, IEEE Transactions on Information Forensics and Security, 2019.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li19"><span class="s8"></span><span class="s2">Qin Hu, Shengling Wang, Peizi Ma, Xiuzhen Cheng, Weifeng Lv, and Rongfang Bie, “Quality Control in Crowdsourcing Using Sequential Zero-Determinant Strategies”, IEEE Transactions on Knowledge and Data Engineering, 2019.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li19"><span class="s8"></span><span class="s2">Shengling Wang, Hongwei Shi, Qin Hu, Bin Lin, and Xiuzhen Cheng, “Moving Target Defense for Internet of Things Based on the Zero-Determinant Theory”, IEEE Internet of Things Journal, 2019.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li19"><span class="s8"></span><span class="s2">Qin Hu, Shengling Wang, Chunqiang Hu, Jianhui Huang, Wei Li, and Xiuzhen Cheng, “Messages in a Concealed Bottle: Achieving Query Content Privacy with Accurate Location-Based Services”, IEEE Transactions on Vehicular Technology, 2018, Vol. 67, No. 8, pp. 7698-7711.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li19"><span class="s8"></span><span class="s2">Shengling Wang, Qin Hu, Yunchuan Sun, and Jianhui Huang, “Privacy Preservation in Location- Based Services”, IEEE Communications Magazine, 2018, Vol. 56, No. 3, pp. 134-140.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li19"><span class="s8"></span><span class="s2">Chunchi Liu, Yinhao Xiao, Vishesh Javangula, Qin Hu, Shengling Wang, and Xiuzhen Cheng, “NormaChain: A Blockchain-based Normalized Autonomous Transaction Settlement System for IoT-based E-commerce”, IEEE Internet of Things Journal, October 2018.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li19"><span class="s8"></span><span class="s2">Di Yao, Chao Zhang, Zhihua Zhu, Qin Hu, Zheng Wang, Jianhui Huang,and Jingping Bi, “Learning Deep Representation for Trajectory Clustering”, Expert Systems, 2018.<span class="Apple-converted-space"> </span></span></li>
+</ul>
+<h3 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 24.0px 'Helvetica Neue'; color: #f89710; -webkit-text-stroke: #f89710"><span class="s2"><b>Conference Papers</b></span></h3>
+<ul class="ul1">
+  <li class="li19"><span class="s8"></span><span class="s2">Qin Hu, Shengling Wang, and Xiuzhen Cheng, “A Game Theoretic Analysis on Block Withholding Attacks Using the Zero-Determinant Strategy”, IEEE/ACM 27th International Symposium on Quality of Service (IWQoS), 2019.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li19"><span class="s8"></span><span class="s2">Cheng Zhang, Honglu Jiang, Yawei Wang, Qin Hu, Jiguo Yu, Xiuzhen Cheng, “User Identity De-anonymization Based on Attributes”, International Conference on Wireless Algorithms, Systems, and Applications (WASA), 2019, pp. 458-469.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li19"><span class="s8"></span><span class="s2">Shengling Wang, Chenyu Wang, and Qin Hu, “Corking by Forking: Vulnerability Analysis of Blockchain”, IEEE International Conference on Computer Communications (INFOCOM), 2019.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li19"><span class="s8"></span><span class="s2">Qin Hu, Shengling Wang, Liran Ma, Rongfang Bie, and Xiuzhen Cheng, “Anti-Malicious Crowdsourcing Using the Zero-Determinant Strategy”, IEEE International Conference on Distributed Computing Systems (ICDCS), 2017, pp. 1137-1146.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li19"><span class="s8"></span><span class="s2">Qin Hu, Shengling Wang, Liran Ma, Xiuzhen Cheng, and Rongfang Bie, “Solving the Crowdsourcing Dilemma Using the Zero-Determinant Strategy: Poster”, ACM International Symposium on Mobile Ad Hoc Networking and Computing (MobiHoc), 2016, pp. 373-374.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li19"><span class="s8"></span><span class="s2">Jianhui Huang, Qin Hu, Jingping Bi, and Zhongcheng Li, “Stackelberg Game Based Incentive Mechanism for Data Transmission in Mobile Opportunistic Networks”, International Conference on Wireless Algorithms, Systems, and Applications (WASA), 2016, pp. 377-388.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li19"><span class="s8"></span><span class="s2">Qin Hu, Shengling Wang, Rongfang Bie, and Xiuzhen Cheng, “Low Price to Win: Interac- tive Scheme in Cooperative Cognitive Radio Networks”, IEEE International Conference on Communications (ICC), 2015, pp. 7546-7551.<span class="Apple-converted-space"> </span></span></li>
+</ul>
+<p class="p7"><span class="s2"><br>
+</span></p>
+<h2 style="margin: 0.0px 0.0px 36.0px 0.0px; font: 42.0px 'Helvetica Neue'; color: #16191c; -webkit-text-stroke: #16191c"><span class="s2"><b>Education</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 24.0px 'Helvetica Neue'; color: #16191c; -webkit-text-stroke: #16191c"><span class="s2"><b>The George Washington University</b></span></h3>
+<p class="p4"><span class="s2">Ph.D In Computer Science</span></p>
+<p class="p15"><span class="s2">September 2017 - May 2019</span><span class="s6"><span class="Apple-converted-space"> </span></span></p>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 24.0px 'Helvetica Neue'; color: #16191c; -webkit-text-stroke: #16191c"><span class="s2"><b>Beijing Normal University</b></span></h3>
+<p class="p4"><span class="s2">M.S. In Computer Science</span></p>
+<p class="p15"><span class="s2">September 2014 - June 2017</span><span class="s6"><span class="Apple-converted-space"> </span></span></p>
+<h3 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 24.0px 'Helvetica Neue'; color: #16191c; -webkit-text-stroke: #16191c"><span class="s2"><b>Beijing Normal University</b></span></h3>
+<p class="p4"><span class="s2">B.S. In Electronic Engineering</span></p>
+<p class="p15"><span class="s2">September 2010 - June 2014</span><span class="s6"><span class="Apple-converted-space"> </span></span></p>
+</body>
+</html>
